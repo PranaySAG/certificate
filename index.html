@@ -60,6 +60,74 @@
     .para-container .ribbon {
         margin: 0 50px;
     }
+
+    @media (max-width: 600px) {
+        .certificate-container {
+            width: 100%;
+            padding: 10px;
+        }
+        .certificate-container h1 {
+            font-size: 25px;
+            margin: 20px;
+        }
+        .certificate-container .para-heading {
+            font-size: 17px;
+        }
+        .certificate-container .para-name {
+            font-size: 15px;
+        }
+        .ribbon {
+            height: 70px;
+        }
+        .para-container {
+            flex-direction: column;
+            padding: 10px;
+        }
+        .para-container .paras {
+            max-height: 80px;
+            width: 80px;
+        }
+        .para-container .ribbon {
+            margin: 20px 0;
+        }
+    }
+
+    @media (min-width: 601px) and (max-width: 1024px) {
+        .certificate-container {
+            width: 80%;
+            padding: 15px;
+        }
+
+        .certificate-container h1 {
+            font-size: 35px;
+            margin: 25px;
+        }
+
+        .certificate-container .para-heading {
+            font-size: 18px;
+        }
+
+        .certificate-container .para-name {
+            font-size: 22px;
+        }
+
+        .ribbon {
+            height: 100px;
+        }
+
+        .para-container {
+            padding: 15px;
+        }
+
+        .para-container .paras {
+            max-height: 50px;
+            width: 90px;
+        }
+        
+        .para-container .ribbon {
+            margin: 30px;
+        }
+    }
     </style>
 </head>
 <body>
